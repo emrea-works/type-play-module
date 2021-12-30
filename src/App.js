@@ -6,8 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-        <TypePlay
-					text="The quick brown fox jumps over the lazy dog" />
+        <h1>
+        	<TypePlay
+        						text="The quick brown fox jumps over the lazy dog" />
+        </h1>
 
       </header>
     </div>

@@ -7,12 +7,12 @@ const TypePlay = ({ text, className }) => {
 
 	const font_0 = {
 		fontFamily: 'var(--primary-font)',
+		color: '#9b9be3'
 	}
 
 	const font_1 = {
 		fontFamily: 'var(--secondary-font)',
-		marginLeft: '1px',
-		marginRight: '-1px'
+		color: '#d98f8f'
 	}
 
   return (
@@ -20,7 +20,6 @@ const TypePlay = ({ text, className }) => {
       {lettersArray.map((letter, index) => (
         <span
           key={index}
-          /*style={{ fontFamily: rnd(0, 1) ? 'var(--primary-font)' : 'var(--secondary-font)' }}*/
           style={ rnd(0, 1) ? font_0 : font_1 }
           className={className}
         >
